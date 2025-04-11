@@ -86,3 +86,20 @@ if ($primeiroValor > 0) {
 } else {
     echo "negativo<br>";
 }
+
+$mes = 11;
+
+switch ($mes) {
+    case 1:
+        echo "janeiro";
+        break;
+    case 2:
+        echo "fevereiro";
+        break;
+    case 3:
+        echo "março";
+        break;
+    default: 
+        echo "Outro mês";
+        break;
+}
